@@ -1,0 +1,204 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1
+{
+  color: white;
+}
+h3
+{
+  font-size: 1.5rem;
+}
+p
+{
+    font-family: 'Montserrat-Light', sans-serif;
+    color: #8f8f8f;
+}
+
+#title{
+  background-color: #ff4c68;
+}
+
+.heading
+{
+font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.containers-fluid
+{
+  padding: 3% 10%;
+}
+
+
+.navbar-brand
+{
+  font-size: 2.3rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.navbar-dark .navbar-brand{
+    color: yellow;
+
+}
+.nav-bar
+{
+padding-bottom:50px;
+}
+.nav-item
+{
+  padding: 0 10px;
+}
+.nav-link
+{
+  font-family: 'Montserrat-Light', sans-serif;
+  font-weight: bold;
+}
+.download-button
+{
+  margin:30px 10px 30px 10px;
+
+}
+.iphone
+{
+  transform: rotate(30deg);
+  width: 200px;
+  margin-left: 110px;
+  margin-top: 20px;
+  position: relative;
+  z-index: 0;
+}
+/* 2nd section */
+#features
+{
+  padding: 9% 10% 3% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  bottom: 100px;
+}
+
+.row
+{
+
+  padding: 20px 20px 20px 20px;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 18px;
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+#testimonials
+{
+  background-color: #ff4c68;
+  color: white;
+}
+.testimonial-pics
+{
+  width:100px;
+  border-radius: 100%;
+  margin: 30px 10px;
+}
+.carousel-item
+{
+  padding: 6% 15%;
+}
+#press
+{
+    padding: 2% 10%;
+  background-color: #ff4c68;
+}
+.press-img
+{
+  width:190px;
+  margin: 20px 20px;
+}
+#pricing{
+  padding: 70px;
+}
+.pricing-col
+{
+  padding: 30px;
+}
+#cta
+{
+  background-color: #ff4c68;
+  padding: 6% 15%
+
+}
+.last
+{
+  font-size: 40px;
+   color: white;
+}
+.btn-light
+{
+background-color: #ef8172;
+color: white;
+}
+.btn-light:hover
+{
+  background-color: #ff4c68;
+  color: white;
+}
+.btn-outline-dark
+{
+  color: #ef8172;
+  outline-color: #ef8172;
+}
+.btn-outline-dark:hover
+{
+  background-color: #ff4c68;
+  color: white;
+}
+.card-header
+{
+  background-color:#ef8172;
+  color: white;
+}
+#footer
+{
+  padding: 4% 8%;
+}
+.foot
+{
+  color: #ef8172;
+  margin: 10px;
+}
+.foot:hover
+{
+  color: #ff4c68;
+  margin: 10px;
+}
+
+@media (max-width:1028px)
+{
+.iphone
+{
+  position:static;
+  text-align:center;
+  transform:rotate(0);
+  margin: auto;
+}
+#pricing{
+  padding: 70px;
+  text-align: center;
+}
+#features
+{
+  position: relative;
+  bottom: 0;
+}
+
+.press-img
+{
+  width:130px;
+  margin: 15px 15px;
+}
+
+}
